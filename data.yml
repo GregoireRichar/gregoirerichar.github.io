@@ -1,0 +1,172 @@
+
+##################################### INFOS ####################################
+
+aboutme:
+    name: "Grégoire Richard"
+    catchphrase: "PhD Candidate"
+    image: "CV_picture.jpg"
+    text: "I am a PhD Student at Inria and University Of Lille, France. 
+    I am specialized in Human Computer Interaction (HCI) in Virtual Reality (VR). 
+    I am interested in haptics, methodological tools for avatar-related studies, and user experience."
+    links:
+        - {type: mail, url: "mailto:gregoire.richard@gadz.org"}
+        - {type: linkedin, url: "https://www.linkedin.com/in/gr%C3%A9goire-richard-533311102/"}
+        - {type: github, url: "https://github.com/GregoireRichar"}
+        - {type: resume, name: "resume", url: "./documents/CV_RICHARD_Gregoire_2022.pdf"}
+
+################################### PROJECTS ###################################
+positions:
+    name: "Positions"
+    items:
+        -
+            position: "ATER - Temporary Assistant Teacher"
+            location: "CRIStAL-Inria, Université de Lille, France"
+            date: "Sept. 2022 - Ongoing"
+            team: "Loki team"
+
+education:
+    name: "Education"
+    items:
+        -
+            diploma: "PhD, Computer Science"
+            date: "2019 - Ongoing"
+            location: "CristAL-Inria, University of Lille, France"
+            text: "Specialized in Human Computer Interaction and Virtual Reality"
+        -
+            diploma: "Master's Degree, Computer Science"
+            date: "2015 - 2019"
+            location: "Ecole Nationale Supérieure d'Arts et Métiers, France"
+            text: "Specialized in Virtual Reality and Augmented Reality"
+        -
+            diploma: "Engineering Degree"
+            date: "2015 - 2019"
+            location: "Ecole Nationale Supérieure d'Arts et Métiers, France"
+            text: ""
+
+projects:
+    name: "Projects"
+    subsections:
+        -
+            name: "Academic projects"
+            items:
+                - "vib_ctrller"
+                - "within_between"
+                - "haptic_embodiment"
+
+research:
+    name: "Research"
+    subsections:
+        -
+            name: "International Conferences"
+            items:
+                - "within_between"
+                - "haptic_embodiment"
+
+
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+
+
+vib_ctrller:
+    title: "Spatialized Vibrotactile Controller"
+    year: "2021-2022"
+    category: "Academic projects"
+    status: "PhD"
+    location: "CRIStAL-Inria, University of Lille France"
+    keywords: ["Unity", "C#", "Haptics", "Virtual Reality", "Arduino", "3D Printing", "Python"]
+    summary: "
+        This project aimed at designing a controller for VR that enabled spatialized vibrations through the use of the funneling effect. Several aspects of the controller were assessed.Performance-wise, users' ability to locate static vibrations, and their ability to follow dynamic patterns. In terms of user experience, the impact of vibrotactile feedback on embodiment as explored.
+    "
+    authors: ["gregoire.richard", "thomas.pietrzak", "ferran.argelaguet", "anatole.lecuyer","gery.casiez"]
+    icon: "proto_module_detoure.png"
+    links: []
+
+
+################################################################################
+
+within_between:
+    title: "Studying Methodological Tools for Embodiment Studies in VR"
+    year: "2020-2021"
+    category: "Academic projects"
+    status: "PhD"
+    location: "CRIStAL-Inria, University of Lille France"
+    keywords: ["Unity", "Methodology", "C#", "Python", "R", "Embodiment"]
+    summary: "
+        This project proposes a new methodologicals tools to study embodiments in virtual reality. We assess the ability of within-subjects and between-subjects design to detect effects in relationship with sample size. We explore new correlations between embodiment and other metrics in a replication of a full-body virtual embodiment protocol.
+    "
+    paper_title: "Within or Between: Comparing Experimental Designs for Virtual Embodiment Studies"
+    category: "International Conferences"
+    conf_short: "IEEE VR 2022"
+    conf_long: "Proceedings of 2022 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)"
+    authors: ["gregoire.richard", "thomas.pietrzak", "ferran.argelaguet", "anatole.lecuyer", "gery.casiez"]
+
+    icon: "setup_exp_1.jpg"
+    links:
+        - {type: doi, url: "https://doi.org/10.1109/VR51125.2022.00037"}
+        - {type: pdf, url: "https://hal.inria.fr/hal-03611661/"}
+        - {type: video, url: "https://youtu.be/fBZf8bTVlGA"}
+        - {type: presentation, url: "https://youtu.be/ig6tvxIGFHQ"}
+
+################################################################################
+
+haptic_embodiment:
+    title: "Haptic Feedback and Embodiment"
+    year: "2019-2020"
+    status: "PhD"
+    location: "CRIStAL-Inria, University of Lille France"
+    keywords: ["Unity", "Virtual Reality", "Embodiment", "Haptics", "Arduino", "R"]
+    summary: "
+        This project explore the relationship between different haptic feedbacks and virtual embodiment, especially the ecological validity of the feedback and its perception by users.
+    "
+    paper_title: "Studying the Role of Haptic Feedback on Virtual Embodiment in a Drawing Task"
+    conf_short: "Frontiers in VR"
+    conf_long: "Frontiers in Virtual Reality, Section Virtual Reality and Human Behaviour"
+    authors: ["gregoire.richard", "thomas.pietrzak", "ferran.argelaguet", "anatole.lecuyer","gery.casiez"]
+
+    icon: "phantom_exp_setup.png"
+    links:
+        - {type: doi, url: "https://doi.org/10.3389/frvir.2020.573167"}
+        - {type: pdf, url: "https://hal.inria.fr/hal-03046791/"}
+        - {type: video, url: "https://youtu.be/o_Vb2AdBK0E"}
+
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+
+people:
+    gregoire.richard:
+        name: "Grégoire Richard"
+        website: "https://github.com/GregoireRichar/gregoirerichard.github.io"
+    gery.casiez:
+        name: "Géry Casiez"
+        website: "https://cristal.univ-lille.fr/~casiez/"
+    thomas.pietrzak:
+        name: "Thomas Pietrzak"
+        website: "https://thomaspietrzak.com/"
+    anatole.lecuyer:
+        name: "Anatole Lécuyer"
+        website: "https://people.rennes.inria.fr/Anatole.Lecuyer/"
+    ferran.argelaguet:
+        name: "Ferran Argelaguet"
+        website: "https://scholar.google.com/citations?user=h8NkiJcAAAAJ&hl=en"
+
+
+link_classes:
+    doi: 'fa-solid fa-link'
+    pdf: 'fa-solid fa-file-pdf'
+    video: 'fa-brands fa-youtube-square'
+    github: 'fa-brands fa-github-square'
+    presentation: 'fa-solid fa-person-chalkboard'
+    code: 'fa-solid fa-code'
+    demo: 'fa-solid fa-gamepad'
+    mail: 'fa-solid fa-square-envelope'
+    linkedin: 'fa-brands fa-linkedin'
+    facebook: 'fa-brands fa-facebook-square'
+    resume: 'fa-solid fa-image-portrait'
+    scholar: 'fa-solid fa-graduation-cap'
+

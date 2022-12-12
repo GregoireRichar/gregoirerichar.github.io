@@ -1,0 +1,224 @@
+html {
+  scroll-behavior: smooth;
+  font-family: Helvetica;
+  font-size: 10pt;
+  scroll-padding-top: 2em;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color:  #c46fd1;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+summary {
+  outline:none;
+}
+
+footer {
+  text-align: center;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+
+footer > a {
+  color: #c46fd1;
+}
+
+footer > a:hover {
+  color: #c46fd1;
+}
+
+#navigation-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #c46fd1;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.navigation-item {
+  margin: 0 0.2em 0 0.2em;
+  padding: 0.2em 1em 0.2em 1em;
+  border-radius: 10px;
+  background-color: #404040;
+  text-decoration: none;
+  color: white;
+  border: #404040 1px solid;
+}
+
+.navigation-item:hover {
+  text-decoration: none;
+  color: white;
+  border: white 1px solid;
+}
+
+.navigation-item .active {
+}
+
+#content {
+  padding-top: 3em;
+}
+
+.container {
+  max-width: 1000px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.text {
+  text-align: justify;
+}
+
+.section-title {
+  padding-top: 1em;
+  font-weight:  bold;
+  font-size: 160%;
+  color:  #c46fd1;
+}
+
+.subsection-title {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 130%;
+  color:  #c46fd1;
+}
+
+.item {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.item-title {
+  font-weight: bold;
+}
+
+.aboutme .name {
+  font-weight: bold;
+  font-size: 140%;
+}
+
+.aboutme .catchphrase {
+  color: #c46fd1;
+  font-weight: bold;
+  font-size: 110%;
+
+}
+
+.aboutme .text {
+  padding-top: 0.5em;
+}
+
+.aboutme .links {
+  padding: 0.5em;
+}
+
+.fa-icon {
+  font-size: 110%;
+}
+
+.link {
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  color:  gray;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.link:hover {
+  color: #c46fd1;
+  text-decoration: none;
+}
+
+.nodisplay {
+  display:  none! important;
+}
+
+.location-date {
+  font-style: italic;
+  color: gray;
+}
+
+.conf-badge {
+  font-size: smaller;
+  border-radius: 5px;
+  background-color: #c46fd1;
+  color: white;
+  margin-bottom: 0.1em;
+  text-align: center;
+  font-weight: 450;
+}
+
+.project-card .card-header {
+  text-align:  center;
+  background-color: #c46fd1;
+  color: white;
+  padding: 0;
+  font-weight: 450;
+}
+
+.project-card .subtitle {
+  color:  #c46fd1;
+  text-align: right;
+  font-weight: 450;
+  margin-bottom: 0.5em;
+}
+
+.project-card .publication {
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+.project-card .text-content {
+  flex-grow: 10;
+}
+
+.project-card .text {
+  margin-top: 1em;
+}
+
+.project-card .links {
+  margin-top: 0.5em;
+}
+
+.project-card .card-footer {
+  background-color: white;
+  border: 0;
+}
+
+.project-card .keywords {
+  font-size: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.keyword {
+  border:  solid 1px lightgray;
+  border-radius: 5px;
+  color: gray;
+  white-space: nowrap;
+  margin: 0.1em;
+  padding: 0 0.2em 0 0.2em;
+}
+
+
+
+
+
+
+
+
