@@ -10,7 +10,7 @@ body {
 }
 
 a {
-  color:  #c46fd1;
+  color:  #9532A8;
 }
 
 img {
@@ -30,11 +30,11 @@ footer {
 }
 
 footer > a {
-  color: #c46fd1;
+  color: #9532A8;
 }
 
 footer > a:hover {
-  color: #c46fd1;
+  color: #9532A8;
 }
 
 #navigation-bar {
@@ -42,7 +42,7 @@ footer > a:hover {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #c46fd1;
+  background-color: #9532A8;
   height: 3em;
   display: flex;
   justify-content: center;
@@ -87,14 +87,14 @@ footer > a:hover {
   padding-top: 1em;
   font-weight:  bold;
   font-size: 160%;
-  color:  #c46fd1;
+  color:  #9532A8;
 }
 
 .subsection-title {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   font-size: 130%;
-  color:  #c46fd1;
+  color:  #9532A8;
 }
 
 .item {
@@ -112,7 +112,7 @@ footer > a:hover {
 }
 
 .aboutme .catchphrase {
-  color: #c46fd1;
+  color: #9532A8;
   font-weight: bold;
   font-size: 110%;
 
@@ -139,7 +139,7 @@ footer > a:hover {
 }
 
 .link:hover {
-  color: #c46fd1;
+  color: #9532A8;
   text-decoration: none;
 }
 
@@ -155,7 +155,7 @@ footer > a:hover {
 .conf-badge {
   font-size: smaller;
   border-radius: 5px;
-  background-color: #c46fd1;
+  background-color: #9532A8;
   color: white;
   margin-bottom: 0.1em;
   text-align: center;
@@ -164,14 +164,14 @@ footer > a:hover {
 
 .project-card .card-header {
   text-align:  center;
-  background-color: #c46fd1;
+  background-color: #9532A8;
   color: white;
   padding: 0;
   font-weight: 450;
 }
 
 .project-card .subtitle {
-  color:  #c46fd1;
+  color:  #9532A8;
   text-align: right;
   font-weight: 450;
   margin-bottom: 0.5em;

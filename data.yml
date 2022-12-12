@@ -3,9 +3,9 @@
 
 aboutme:
     name: "Grégoire Richard"
-    catchphrase: "PhD Candidate"
+    catchphrase: "Ph.D. Candidate"
     image: "CV_picture.jpg"
-    text: "I am a PhD Student at Inria and University Of Lille, France. 
+    text: "I am a Ph.D. candidate at Inria and University of Lille, France. 
     I am specialized in Human Computer Interaction (HCI) in Virtual Reality (VR). 
     I am interested in haptics, methodological tools for avatar-related studies, and user experience."
     links:
