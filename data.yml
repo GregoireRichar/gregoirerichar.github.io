@@ -3,9 +3,9 @@
 
 aboutme:
     name: "Grégoire Richard"
-    catchphrase: "Ph.D. Candidate"
+    catchphrase: "Ph.D. in Computer Science"
     image: "CV_picture.jpg"
-    text: "I am a Ph.D. candidate at Inria and University of Lille, France. 
+    text: "I am a Ph.D. at Inria and University of Lille, France. 
     I am specialized in Human Computer Interaction (HCI) in Virtual Reality (VR). 
     I am interested in haptics, methodological tools for avatar-related studies, and user experience."
     links:
@@ -29,7 +29,7 @@ education:
     items:
         -
             diploma: "PhD, Computer Science"
-            date: "2019 - Ongoing"
+            date: "2019 - 2023"
             location: "CRIStAL-Inria, University of Lille, France"
             text: "Specialized in Human Computer Interaction and Virtual Reality"
         -
@@ -60,6 +60,9 @@ research:
             name: "International Conferences"
             items:
                 - "within_between"
+        -
+            name: "Journals"
+            items:
                 - "haptic_embodiment"
 
 
