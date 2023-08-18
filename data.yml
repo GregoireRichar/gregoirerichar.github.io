@@ -112,6 +112,7 @@ within_between:
         - {type: pdf, url: "https://hal.inria.fr/hal-03611661/"}
         - {type: video, url: "https://youtu.be/fBZf8bTVlGA"}
         - {type: presentation, url: "https://youtu.be/ig6tvxIGFHQ"}
+        - {type: code, url: "./documents/VR_Stats_Archive.zip"}
 
 ################################################################################
 
