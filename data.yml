@@ -57,6 +57,10 @@ research:
     name: "Research"
     subsections:
         -
+            name: "Thesis"
+            items:
+                - "thesis"
+        -
             name: "International Conferences"
             items:
                 - "within_between"
@@ -69,6 +73,19 @@ research:
 ################################################################################
 ################################################################################
 ################################################################################
+
+thesis:
+    paper_title: "Rôle du retour sur les interactions avec des avatars en réalité virtuel"
+    icon: "thesis.png"
+    conf_short: "Thesis"
+    conf_long: "
+        <br> Defended on 19th of June, 2023
+        <br>ED MADIS, CRIStAL, Université de Lille, France
+    "
+    authors: []
+    links:
+        - {type: pdf, name: "pdf", url: "https://hal.science/tel-04182814"}
+
 ################################################################################
 ################################################################################
 
