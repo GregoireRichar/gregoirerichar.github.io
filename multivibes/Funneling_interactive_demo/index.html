@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>2-dimensional Funneling Demo</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css" />
+      <script src="main.js"></script>
+      <script src="Elements.js"></script>
+      <script src="TriangularCell.js"></script>
+   </head>
+   <body>
+      <div id="instructions">This interactive demo showcases how it is possible to simulate vibrations over a 2-dimensional surface leveraging the funneling illusion. <a href="TTPconfig.json"> parameters</a> that work best with an iPad Pro and that may not be optimal for your device. Switch between vertices using the radio buttons. Further details and applications are described in the associated research paper that can be found at URL</a>.</div>
+      <b>Vertices </b> 
+      <input type="radio" id="1" name="vertices" value="1" checked>
+      <label for="1">Vertex 1</label>
+      <input type="radio" id="2" name="vertices" value="2">
+      <label for="2">Vertex 2</label>
+      <input type="radio" id="3" name="vertices" value="3">
+      <label for="3">Vertex 3</label>
+
+      <button type="button" id="vertex" name="vertexChange">Change vertices</button>
+
+      <button id="instBut">Hide instructions</button>
+
+      <!-- <button id="clearbutton">Clear</button> -->
+      <canvas id="canvas"></canvas>
+   </body>
+</html>

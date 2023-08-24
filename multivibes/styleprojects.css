@@ -1,0 +1,40 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size:22pt;
+    font-weight:bold;
+  }
+  
+  div.author {
+    font-size:10pt;
+  }
+  
+  td.left {
+      border-top-style: none;
+      border-right-style: dotted;
+      border-bottom-style: none;
+      border-left-style: none;
+      padding: 20px;
+  }
+  td.right {
+      margin-left:20em;
+      padding: 20px;
+  }
+  
+  table {
+    border: 0;
+    width: 100%;
+  }
+  
+  body {
+    position: relative;
+    background-color: #fff;
+    width: 750px;
+    margin: auto;
+  }
+  
+  p {
+    text-align: justify;
+  }
