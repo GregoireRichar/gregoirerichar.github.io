@@ -5,14 +5,14 @@ aboutme:
     name: "Grégoire Richard"
     catchphrase: "Ph.D. in Computer Science"
     image: "CV_picture.jpg"
-    text: "I am a Ph.D. at Inria and University of Lille, France. 
+    text: "I am a Ph.D. working at Inria and University of Lille, France. 
     I am specialized in Human Computer Interaction (HCI) in Virtual Reality (VR). 
     I am interested in haptics, methodological tools for avatar-related studies, and user experience."
     links:
         - {type: mail, url: "mailto:gregoire.richard@gadz.org"}
         - {type: linkedin, url: "https://www.linkedin.com/in/gr%C3%A9goire-richard-533311102/"}
         - {type: github, url: "https://github.com/GregoireRichar"}
-        - {type: resume, name: "resume", url: "./documents/CV_RICHARD_Gregoire_2022.pdf"}
+        - {type: resume, name: "resume", url: "./documents/RICHARD_Gregoire_2023.pdf"}
 
 ################################### PROJECTS ###################################
 positions:
@@ -21,7 +21,7 @@ positions:
         -
             position: "ATER - Temporary Assistant Teacher"
             location: "CRIStAL-Inria, Université de Lille, France"
-            date: "Sept. 2022 - Ongoing"
+            date: "Sept. 2022 - Aug. 2023"
             team: "Loki team"
 
 education:
