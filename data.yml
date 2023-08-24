@@ -63,6 +63,7 @@ research:
         -
             name: "International Conferences"
             items:
+                - "vib_ctrller"
                 - "within_between"
         -
             name: "Journals"
@@ -100,9 +101,14 @@ vib_ctrller:
     summary: "
         This project aimed at designing a controller for VR that enabled spatialized vibrations through the use of the funneling effect. Several aspects of the controller were assessed.Performance-wise, users' ability to locate static vibrations, and their ability to follow dynamic patterns. In terms of user experience, the impact of vibrotactile feedback on embodiment as explored.
     "
-    authors: ["gregoire.richard", "thomas.pietrzak", "ferran.argelaguet", "anatole.lecuyer","gery.casiez"]
+    paper_title: "MultiVibes: What if your VR Controller had 10 Times more Vibrotactile Actuators?"
+    category: "International Conferences"
+    conf_short: "IEEE ISMAR 2023"
+    conf_long: "Proceedings of 2023 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)"
+    authors: ["gregoire.richard", "thomas.pietrzak", "ferran.argelaguet", "anatole.lecuyer", "gery.casiez"]
     icon: "proto_module_detoure.png"
-    links: []
+    links:
+        - {type: video, url: "https://youtu.be/HwexIJg6-AY"}
 
 
 ################################################################################
