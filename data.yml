@@ -3,13 +3,16 @@
 
 aboutme:
     name: "Grégoire Richard"
-    catchphrase: "Ph.D. in Computer Science"
+    catchphrase: "Associate Professor (Maître de conférences) in Computer Science"
     image: "CV_picture.jpg"
-    text: "I am a Ph.D. working at Inria and University of Lille, France. 
-    I am specialized in Human Computer Interaction (HCI) in Virtual Reality (VR). 
-    I am interested in haptics, methodological tools for avatar-related studies, and user experience."
+    text: "I am an Associate Professor (Maître de conférences) in Computer Science at Le Mans Université, France.
+    I teach at the IUT de Laval and conduct my research at LIUM (Computer Science Lab of Le Mans University), in the IEIAH team (Technology Enhanced Learning).
+    I work in Human-Computer Interaction (HCI) and Virtual Reality (VR), on haptic feedback and multisensory interaction:
+    I am interested in how a designed signal (tactile, visual, auditory) shapes what people perceive, understand and feel during an interaction, and in the experimental methodology needed to study it.
+    My current work extends this line towards learning: I study how haptic and multimodal signals can guide gestures, support collaboration and structure learning in immersive environments."
     links:
-        - {type: mail, url: "mailto:gregoire.richard@gadz.org"}
+        # Obfuscated on purpose (no mailto:) to avoid harvesting by bots
+        - {type: mail, name: "gregoire (dot) richard (at) univ-lemans (dot) fr", url: "#home"}
         - {type: linkedin, url: "https://www.linkedin.com/in/gr%C3%A9goire-richard-533311102/"}
         - {type: github, url: "https://github.com/GregoireRichar"}
         - {type: resume, name: "resume", url: "./documents/RICHARD_Gregoire_2023.pdf"}
@@ -18,6 +21,16 @@ aboutme:
 positions:
     name: "Positions"
     items:
+        -
+            position: "Associate Professor (Maître de conférences)"
+            location: "LIUM, Le Mans Université - IUT de Laval, France"
+            date: "Sept. 2026 - Present"
+            team: "IEIAH team"
+        -
+            position: "Post-doctoral Researcher (CNRS)"
+            location: "Heudiasyc (UTC) & ISIR (Sorbonne Université), France"
+            date: "Oct. 2023 - May 2026"
+            team: "ANR MATCH project"
         -
             position: "ATER - Temporary Assistant Teacher"
             location: "CRIStAL-Inria, Université de Lille, France"
@@ -49,6 +62,8 @@ projects:
         -
             name: "Academic projects"
             items:
+                - "touch_acceptability"
+                - "social_touch_modalities"
                 - "vib_ctrller"
                 - "within_between"
                 - "haptic_embodiment"
@@ -63,12 +78,19 @@ research:
         -
             name: "International Conferences"
             items:
+                - "touch_acceptability"
                 - "vib_ctrller"
                 - "within_between"
         -
             name: "Journals"
             items:
+                - "social_touch_modalities"
                 - "haptic_embodiment"
+        -
+            name: "Workshops"
+            items:
+                - "saxr_2026"
+                - "wacai_2024"
 
 
 ################################################################################
@@ -76,7 +98,7 @@ research:
 ################################################################################
 
 thesis:
-    paper_title: "Rôle du retour sur les interactions avec des avatars en réalité virtuel"
+    paper_title: "Rôle du retour haptique sur les interactions avec des avatars en réalité virtuelle"
     icon: "thesis.png"
     conf_short: "Thesis"
     conf_long: "
@@ -90,6 +112,67 @@ thesis:
 ################################################################################
 ################################################################################
 
+touch_acceptability:
+    title: "Acceptability of Social Touch in VR"
+    year: "2025-2026"
+    category: "Academic projects"
+    status: "Post-doc"
+    location: "Heudiasyc (UTC) & ISIR (Sorbonne Université), France"
+    keywords: ["Unity", "C#", "Virtual Reality", "Haptics", "Social Touch", "Wizard-of-Oz", "Methodology"]
+    summary: "
+        This project studies when, and from whom, social touch is acceptable in virtual reality. We adapted the Wizard-of-Oz method to embodied social interaction in VR: the partner is always an experimenter-controlled avatar behaving identically, while participants are told it is either a remote human or an autonomous agent. In a 2x2 between-subjects experiment (N = 47) built on a storytelling task, what participants believed about the partner changed how its empathic touch was received, without changing how human the partner was judged to be.
+    "
+    paper_title: "When a Virtual Agent Touches You: How a Partner's Attributed Agency Shapes the Acceptability of Social Touch in VR"
+    conf_short: "EuroXR 2026"
+    conf_long: "To appear in Proceedings of the EuroXR 2026 International Conference"
+    authors: ["gregoire.richard", "catherine.pelachaud", "yohan.bouvet", "indira.thouvenin"]
+    icon: "touch_acceptability.jpg"
+    links: []
+
+################################################################################
+
+social_touch_modalities:
+    title: "Multisensory Feedback for Social Touch"
+    year: "2023-2025"
+    category: "Academic projects"
+    status: "Post-doc"
+    location: "Heudiasyc (UTC) & ISIR (Sorbonne Université), France"
+    keywords: ["Unity", "C#", "Virtual Reality", "Haptics", "Social Touch", "Virtual Agents", "Multisensory Feedback"]
+    summary: "
+        This project investigates how visual, audio and tactile feedback, alone and combined, contribute to the perception of being socially touched by a virtual agent in VR. Three experiments progressively isolate and combine these modalities. Multisensory feedback improves the experience of social touch: visual and tactile feedback are the main contributors to feeling touched, audio feedback also has a significant impact, and the agent's level of animation and interpersonal distance shape how much it is felt as a social partner.
+    "
+    paper_title: "\"Did she just tap me?\": Qualifying Multisensory Feedback for Social Touch during Human-Agent Interaction in Virtual Reality"
+    conf_short: "Frontiers in VR"
+    conf_long: "Frontiers in Virtual Reality, vol. 6, 2025"
+    authors: ["gregoire.richard", "fabien.boucaud", "catherine.pelachaud", "indira.thouvenin"]
+    icon: "social_touch_modalities.png"
+    links:
+        - {type: doi, url: "https://doi.org/10.3389/frvir.2025.1718198"}
+        - {type: pdf, url: "https://hal.science/hal-05386969"}
+
+################################################################################
+# Workshop papers (publications only, no project card)
+
+saxr_2026:
+    paper_title: "Social Acceptability of Touch: Can a Virtual Agent Touch a Human?"
+    conf_short: "CHI 2026 SAXR"
+    conf_long: "1st ACM CHI 2026 Workshop on Shaping Future Human Connection: Social Augmentation through XR Technologies (SAXR), Barcelona, Spain - CEUR Workshop Proceedings, vol. 4226"
+    authors: ["gregoire.richard", "catherine.pelachaud", "indira.thouvenin"]
+    icon: "touch_acceptability.jpg"
+    links:
+        - {type: pdf, url: "https://ceur-ws.org/Vol-4226/paper11.pdf"}
+
+wacai_2024:
+    paper_title: "Qualification des Modalités du Toucher Social dans les Interactions Humain-Agent en Réalité Virtuelle"
+    conf_short: "WACAI 2024"
+    conf_long: "Workshop sur les Affects, Compagnons Artificiels et Interactions (WACAI 2024), Bordeaux, France"
+    authors: ["gregoire.richard", "fabien.boucaud", "indira.thouvenin", "catherine.pelachaud"]
+    icon: "social_touch_modalities.png"
+    links:
+        - {type: pdf, url: "https://hal.science/hal-04915421"}
+
+################################################################################
+
 
 vib_ctrller:
     title: "Spatialized Vibrotactile Controller"
@@ -101,7 +184,7 @@ vib_ctrller:
     summary: "
         This project aimed at designing a controller for VR that enabled spatialized vibrations through the use of the funneling effect. Several aspects of the controller were assessed.Performance-wise, users' ability to locate static vibrations, and their ability to follow dynamic patterns. In terms of user experience, the impact of vibrotactile feedback on embodiment as explored.
     "
-    paper_title: "MultiVibes: What if your VR Controller had 10 Times more Vibrotactile Actuators?"
+    paper_title: '<a href="./multivibes/index.html">MultiVibes: What if your VR Controller had 10 Times more Vibrotactile Actuators?</a>'
     category: "International Conferences"
     conf_short: "IEEE ISMAR 2023"
     conf_long: "Proceedings of 2023 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)"
@@ -123,7 +206,7 @@ within_between:
     summary: "
         This project proposes a new methodologicals tools to study embodiments in virtual reality. We assess the ability of within-subjects and between-subjects design to detect effects in relationship with sample size. We explore new correlations between embodiment and other metrics in a replication of a full-body virtual embodiment protocol.
     "
-    paper_title: "Within or Between: Comparing Experimental Designs for Virtual Embodiment Studies"
+    paper_title: '<a href="./withinbetween/index.html">Within or Between: Comparing Experimental Designs for Virtual Embodiment Studies</a>'
     category: "International Conferences"
     conf_short: "IEEE VR 2022"
     conf_long: "Proceedings of 2022 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)"
@@ -181,6 +264,18 @@ people:
     ferran.argelaguet:
         name: "Ferran Argelaguet"
         website: "https://scholar.google.com/citations?user=h8NkiJcAAAAJ&hl=en"
+    catherine.pelachaud:
+        name: "Catherine Pelachaud"
+        website: "https://www.isir.upmc.fr/personnel/pelachaud/"
+    indira.thouvenin:
+        name: "Indira Thouvenin"
+        website: "https://www.hds.utc.fr/~ithouven/dokuwiki/en/publis_hal"
+    fabien.boucaud:
+        name: "Fabien Boucaud"
+        website: "https://www.isir.upmc.fr/personnel/boucaud"
+    yohan.bouvet:
+        name: "Yohan Bouvet"
+        website: ""
 
 
 link_classes:
